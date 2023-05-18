@@ -29,7 +29,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         Student arr[] = new Student[n];
-        String s = sc.nextLine();
+        String strin = sc.nextLine();
         for(int i = 0;i<n;i++){
                  System.out.println("Enter the name of the student" + (i+1));
                  String str = sc.nextLine();
